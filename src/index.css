@@ -12,3 +12,36 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#login-card {
+  position: absolute;
+  top: 25%;
+  left: 24%;
+  width: 50%;
+  border-radius: 5px;
+}
+
+#signup-card {
+  position: absolute;
+  top: 20%;
+  left: 24%;
+  width: 50%;
+  border-radius: 5px;
+}
+
+#humidity {
+  display: inline-block;
+  margin-right: 25%;
+}
+
+#wind-speed {
+  display: inline-block;
+}
+
+.conditionDetails{
+  margin-top: 7%;
+}
+
+#weather-details{
+  font-size: 70%;
+}
